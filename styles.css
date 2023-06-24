@@ -2,19 +2,26 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* header and footer fonts & colors */
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: auto;
 }
 
 .hero, header {
     background-color: #1F2937;
+    display: flex;
+    /* padding: 10px 150px 150px 150px; */
+    
 }
 
 .hero h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: -15px;
 }
 
 .hero, a {
@@ -25,4 +32,39 @@ body {
 
 button {
     background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    width: 100px;
+    height: 30px;
+    flex: 0 0 auto
+} 
+
+.image {
+    min-height: 200px;
+    min-width: 400px;
+    background-color: rgb(111, 120, 129);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
 }
+
+
+/* header & footer styling */
+header {
+    align-items: center;
+    gap: 20px;
+    padding: 10px 150px 40px 150px;
+}
+
+.hero {
+    flex-flow: column wrap;
+    max-height: 300px;
+    padding: 20px 150px 150px;
+}
+
+.hero > * {
+    max-width: 400px;
+}
+
