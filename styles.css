@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* header and hero (dark blue section */
+/* header and hero (dark blue section) */
 
 .logo {
     font-size: 24px;
@@ -57,7 +57,7 @@ header {
 
 .hero {
     flex-flow: column wrap;
-    
+    align-content: space-between;
 }
 
 .hero > * {
