@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* header and footer fonts & colors */
+/* header and hero (dark blue section */
 
 .logo {
     font-size: 24px;
@@ -13,9 +13,7 @@ body {
 .hero, header {
     background-color: #1F2937;
     display: flex;
-    /* padding: 10px 150px 150px 150px; */
-    
-}
+    }
 
 .hero h1 {
     font-size: 48px;
@@ -50,8 +48,6 @@ button {
     margin-top: 35px;
 }
 
-
-/* header & footer styling */
 header {
     align-items: center;
     gap: 20px;
@@ -61,10 +57,42 @@ header {
 .hero {
     flex-flow: column wrap;
     max-height: 300px;
-    padding: 20px 150px 150px;
 }
 
 .hero > * {
     max-width: 400px;
 }
 
+.hero, .white-div {
+    padding: 20px 150px 120px;
+}
+
+/* second section (white section) */
+
+.white-div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 300px;
+    gap: 40px;
+}
+
+h2 {
+    min-width: 100vw;
+    text-align: center;
+    }
+
+.image-wrap {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 130px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.image-small {
+    width: 130px;
+    height: 130px;
+    border: 3px solid #6ba0f5;
+    border-radius: 15px;
+    }
