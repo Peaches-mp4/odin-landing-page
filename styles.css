@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 /* header and hero (dark blue section) */
@@ -10,7 +11,7 @@ body {
     margin-right: auto;
 }
 
-.hero, header {
+.hero, header, footer {
     background-color: #1F2937;
     display: flex;
     }
@@ -53,7 +54,7 @@ header {
     align-items: center;
     gap: 20px;
     padding: 10px 150px 40px 150px;
-}
+   }
 
 .hero {
     flex-flow: column wrap;
@@ -153,4 +154,14 @@ blockquote {
     font-weight: 900;
     margin: 20px 0 -30px 0px;
     min-width: 60vw;
+}
+
+/* footer */
+
+footer {
+    justify-content: center;
+    text-align: center;
+    color: #E5E7EB;
+    min-height: 70px;
+    padding: 10px;
 }
