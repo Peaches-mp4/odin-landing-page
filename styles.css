@@ -56,15 +56,16 @@ header {
 
 .hero {
     flex-flow: column wrap;
-    max-height: 300px;
+    
 }
 
 .hero > * {
     max-width: 400px;
 }
 
-.hero, .white-div {
-    padding: 20px 150px 120px;
+.hero, .white-div, .gray-div {
+    padding: 20px 150px 110px;
+    max-height: 300px;
 }
 
 /* second section (white section) */
@@ -73,7 +74,6 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    height: 300px;
     gap: 40px;
 }
 
@@ -96,3 +96,25 @@ h2 {
     border: 3px solid #6ba0f5;
     border-radius: 15px;
     }
+
+/* third section (grey section) */
+
+.gray-div {
+    background-color: rgb(214, 212, 212);
+    display: flex;
+    flex-direction: column;
+    padding: 100px 130px 50px;
+}
+
+blockquote {
+    font-size: 27px;
+    font-style: italic;
+    color: rgb(107, 107, 107);
+}
+
+.gray-div p {
+    font-weight: 600;
+    font-size: medium;
+    align-self: flex-end;
+    margin-right: 50px;
+        }
